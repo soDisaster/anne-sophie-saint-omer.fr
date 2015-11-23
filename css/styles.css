@@ -186,7 +186,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 170px; }
+.inner { padding-top: 250px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -213,8 +213,8 @@ a { outline:none !important;}
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/key-west.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 60px; letter-spacing: 5px; margin: 10px; color: white; }
+.hero { background: url('../img/key-west.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
+.hero h1 { font-size: 60px; letter-spacing: 5px; margin: 10px; color: white; margin-top : -270px; }
 .hero h1 span { display: inline-block; }
 .hero p { letter-spacing: 1px; letter-spacing: 5px; font-size: 40px; color: black; font-weight: bold;}
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
