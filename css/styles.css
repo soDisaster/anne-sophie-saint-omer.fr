@@ -186,7 +186,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 250px; }
+.inner { padding-top: 270px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -216,14 +216,17 @@ Hero
 .hero { background: url('../img/key-west.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto;}
 .hero h1 { font-size: 60px; letter-spacing: 5px; margin: 10px; color: white; margin-top : -270px; }
 .hero h1 span { display: inline-block; }
-.hero p { letter-spacing: 1px; letter-spacing: 5px; font-size: 40px; color: black; font-weight: bold; }
+.hero p { letter-spacing: 1px; letter-spacing: 5px; font-size: 40px; color: black; font-weight: bold;}
  #quote { font-size: 20px; color: white; padding: 160px 60px; text-align: center;}
 /* ==========================================================================
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
-.intro p { margin: 50px 0 0; }
-h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+td{ padding-left: 20px; }
+.year {font-size: 15px; text-align: center }
+.formation {font-size: 17px; text-align: left; } 
+.school {font-size: 17px; text-align: left; }
+h1.arrow { font-size: 30px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom : 10%; }
 /* ==========================================================================
 Features
 ========================================================================== */
