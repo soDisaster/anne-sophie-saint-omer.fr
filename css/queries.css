@@ -1,5 +1,8 @@
 /* 320px (iPhone) */
 @media screen and (max-width:320px) {
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:20px; padding-top: 600px;}
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
