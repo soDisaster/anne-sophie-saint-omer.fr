@@ -1,9 +1,3 @@
-/* 320px (iPhone) */
-@media screen and (max-width:320px) {
-	.hero h1 { font-size: 30px; margin-top : 2px;}
-	.hero p { font-size: 30px;}
-	#quote { font-size:20px; padding-top: 600px;}
-}
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
 	.wrapper { background: #f3f5f8; height: 640px; }
@@ -18,6 +12,12 @@
 	.wp3 { background-position: 50px 0; }
 	.swag { background-attachment: scroll; }
 	.subscribe { background-attachment: scroll; }
+	.hero h1 { font-size: 40px; margin-top : 10px;}
+	.hero p { font-size: 40px; margin-top : 20px;}
+	#quote { font-size:20px; padding-top: 600px;}
+	.hero h1 { font-size: 40px; margin-top : 10px;}
+	.hero p { font-size: 40px; margin-top : 20px;}
+	#quote { font-size:20px; padding-top: 600px;}
 }
 /* 1200px (Small Desktop, Netbook) */
 @media screen and (max-width:1280px) {
@@ -31,4 +31,11 @@
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
+}
+
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:20px; padding-top: 600px;}
 }
