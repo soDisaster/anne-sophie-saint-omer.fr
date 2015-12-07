@@ -222,10 +222,19 @@ Hero
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
-td{ padding-left: 20px; }
-.year {font-size: 15px; text-align: center }
-.formation {font-size: 17px; text-align: left; } 
-.school {font-size: 17px; text-align: left; }
+tr{ display:inline;}
+td{ padding-right : 20px;}
+#eservices {font-size: 18px;}
+#bac {padding-left : 30px;}
+#bacs {padding-left : 37px; font-size: 20px;}
+#univ1 {padding-left : 10px;}
+#univ2 {padding-left : 150px;}
+#univ3 {padding-left : 130px;}
+#iut {padding-left : 240px;}
+#highschool {padding-left : 10px;}
+.year {font-size: 23px; text-align: center; }
+.formation {font-size: 22px; text-align: right; } 
+.school {font-size: 20px; text-align: center; }
 h1.arrow { font-size: 30px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom : 10%; }
 /* ==========================================================================
 Features
