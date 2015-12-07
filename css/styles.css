@@ -222,7 +222,8 @@ Hero
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8;}
-#features .schoolAndPlace { color: #046380; font-weight:bold;}
+#features .schoolAndPlace {  font-weight:bold;}
+#features .yearAndSemester { color: #046380; font-weight:bold;}
 h1.arrow { font-size: 30px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom : 10%; }
 /* ==========================================================================
 Features
