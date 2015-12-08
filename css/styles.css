@@ -222,8 +222,7 @@ Hero
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8;}
-#features .schoolAndPlace {  font-weight:bold;}
-#features .yearAndSemester { color: #046380; font-weight:bold;}
+#features .schoolAndPlace {  color: #046380; font-weight:bold;}
 h1.arrow { font-size: 30px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom : 10%; }
 /* ==========================================================================
 Features
@@ -241,7 +240,7 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background-color: rgba(0, 0, 0, 0.8); no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag { background-color: #242830; no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
