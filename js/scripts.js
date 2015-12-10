@@ -107,7 +107,41 @@ $(document).ready(function(){
 
 $(window).load(function() {
 
-	$('#portfolioSlider').flexslider({
+	$('#portfolioSlider1').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: false,
+		pauseOnHover: true,
+		start: function() {
+			$.waypoints('refresh');
+		}
+	});
+
+	$('#portfolioSlider2').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: false,
+		pauseOnHover: true,
+		start: function() {
+			$.waypoints('refresh');
+		}
+	});
+
+
+	$('#portfolioSlider3').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: false,
+		pauseOnHover: true,
+		start: function() {
+			$.waypoints('refresh');
+		}
+	});
+
+	$('#portfolioSlider4').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
@@ -119,17 +153,6 @@ $(window).load(function() {
 	});
 
 	$('#servicesSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
-
-	$('#teamSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,

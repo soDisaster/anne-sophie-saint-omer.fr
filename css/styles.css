@@ -1,11 +1,11 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
- 
+
 /* ==========================================================================
 HTML5 display definitions
 ========================================================================== */
- 
+
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
- 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -22,7 +22,7 @@ Base
 *    `em` units.
 * 2. Prevents iOS text size adjust after orientation change, without disabling
 *    user zoom. */
- 
+
 html { font-size: 100%; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 -ms-text-size-adjust: 100%; /* 2 */ }
@@ -36,7 +36,7 @@ body { margin: 0; font-family: 'Varela Round', sans-serif; }
 Links
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
- 
+
 a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
@@ -45,7 +45,7 @@ Typography
 ========================================================================== */
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
- 
+
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
@@ -80,7 +80,7 @@ sub { bottom: -0.25em; }
 Lists
 ========================================================================== */
 /* * Addresses margins set differently in IE 6/7. */
- 
+
 dl, menu, ol, ul { margin: 1em 0; }
 dd { margin: 0 0 0 40px; }
 /* * Addresses paddings set differently in IE 6/7. */
@@ -92,7 +92,7 @@ Embedded content
 ========================================================================== */
 /* * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
 * 2. Improves image quality when scaled in IE 7. */
- 
+
 img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 /* * Corrects overflow displayed oddly in IE 9. */
@@ -101,13 +101,13 @@ svg:not(:root) { overflow: hidden; }
 Figures
 ========================================================================== */
 /* * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11. */
- 
+
 figure { margin: 0; }
 /* ==========================================================================
 Forms
 ========================================================================== */
 /* * Corrects margin displayed oddly in IE 6/7. */
- 
+
 form { margin: 0; }
 /* * Define consistent border, margin, and padding. */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
@@ -153,7 +153,7 @@ input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */
 *    (include `-moz` to future-proof). */
 input[type="search"] { -webkit-appearance: textfield; /* 1 */
 	-moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */
-box-sizing: content-box; }
+	box-sizing: content-box; }
 /* * Removes inner padding and search cancel button in Safari 5 and Chrome
 * on OS X. */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
@@ -175,7 +175,7 @@ a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-
 a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h2::after { content: " "; border: solid 2px #046380; display: block; width: 35px; margin: 25px auto; }
+h2::after { content: " "; border: solid 2px #3DC9B3; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -217,13 +217,14 @@ Hero
 .hero h1 { font-size: 60px; letter-spacing: 5px; margin: 10px; color: white; margin-top : -270px; }
 .hero h1 span { display: inline-block; }
 .hero p { letter-spacing: 1px; letter-spacing: 5px; font-size: 40px; color: black; font-weight: bold; display: inline;}
- #quote { font-size: 20px; color: white; padding-top: 200px; text-align: center;}
+#quote { font-size: 20px; color: white; padding-top: 200px; text-align: center; }
 /* ==========================================================================
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8;}
-#features .schoolAndPlace {  color: #046380; font-weight:bold;}
-h1.arrow { font-size: 30px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom : 10%; }
+#features .schoolAndPlace {  color: #3DC9B3; font-weight:bold;}
+#experiencesAndInternship .schoolAndPlace {  color: #3DC9B3; font-weight:bold;}
+h1.arrow { font-size: 30px; text-transform: uppercase; color: black; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; margin-bottom : 10%; }
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -231,6 +232,16 @@ Features
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 #features p { color : black;}
+#experiences p { color : black;}
+#pji { background-color: #DCDCDC; }
+#pji img{ padding-left : 70px;}
+#agarLogin {padding-left: 190px;}
+#agar { padding-left: 40px;}
+#android { background-color: #DCDCDC;}
+#android img { padding-left: 400px; background-color: #DCDCDC;}
+#travels p {color: black;}
+.descriptionProjects { color : black; text-align: center; margin-left: 20%; margin-right: 20%; font-size: 18px; font-family: 'Varela Round', sans-serif;}
+
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
@@ -283,7 +294,8 @@ CTA
 /* ==========================================================================
 Team
 ========================================================================== */
-.team img { margin-bottom: 40px; }
+.team img { margin-bottom: 40px;}
+#me p {color: black;}
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
@@ -299,6 +311,11 @@ Contact
 .contact-details h2 { font-size: 20px; }
 .contact-details h2 span { display: block; color: #3dc9b3; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
+#love {margin-bottom: 10px;}
+#contacts p {color : #1E7FCB;}
+#contacts {background-color : #DCDCDC;}
+#me {margin-left : 33%; margin-top : 10%;}
+#asso {font-family: 'Varela Round', sans-serif; font-size: 20px;}
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -309,7 +326,7 @@ ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
 ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
-.legals { text-align: left; }
+#myName { margin-left: 30px; }
 .credit { text-align: right; }
 /* ==========================================================================
 FlexSlider Custom CSS

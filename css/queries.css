@@ -1,27 +1,38 @@
-/* 480px (WVGA - Low End Windows Phone) */
-@media screen and (max-width:480px) {
-	.wrapper { background: #f3f5f8; height: 640px; }
-	.iphone { display: none; }
-	.fluid-white { display: none; }
-	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
-	.legals { text-align: center; margin: 0; padding: 0; }
-	.credit { text-align: center; }
-}
+
 /* xGA iPad */
 @media screen and (max-width:1024px) {
 	.wp3 { background-position: 50px 0; }
 	.swag { background-attachment: scroll; }
 	.subscribe { background-attachment: scroll; }
-	.hero h1 { font-size: 40px; margin-top : 10px;}
-	.hero p { font-size: 40px; margin-top : 20px;}
-	#quote { font-size:20px; padding-top: 600px;}
-	.hero h1 { font-size: 40px; margin-top : 10px;}
-	.hero p { font-size: 40px; margin-top : 20px;}
-	#quote { font-size:20px; padding-top: 600px;}
+	.hero h1 { font-size: 50px; margin-bottom: 30px;}
+	.hero p { font-size: 50px;}
+	#quote { font-size:22px; padding-top: 200px;}
+	.projects {max-width: 800px;}
+	#android img { padding-left: 1px;}
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:18px; padding-top: 600px;}
+	.descriptionProjects { color : black; text-align: center; margin-left: 20%; margin-right: 20%; font-size: 19px; font-family: 'Varela Round', sans-serif;}
+
 }
 /* 1200px (Small Desktop, Netbook) */
 @media screen and (max-width:1280px) {
-	.wp3 { background-position: 50px 0; }
+	 #teamSlider {padding-left: 400px;}
+	.wp3 { background-position: 50px 0;}
+	 .projects {max-width: 800px;}
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:18px; padding-top: 600px;}
+	.projects {max-width: 700px;}
+	#pji img{ padding-left : 20px;}
+	#agarLogin {padding-left: 20px;}
+	#agar { padding-left: 20px;}
+	#android img { padding-left: 20px;}
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:18px; padding-top: 600px;}
+	.descriptionProjects { color : black; text-align: center; margin-left: 20%; margin-right: 20%; font-size: 18px; font-family: 'Varela Round', sans-serif;}
+
 }
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
@@ -31,11 +42,58 @@
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
 	.legals { text-align: center; margin: 0; padding: 0; }
 	.credit { text-align: center; }
+	.hero p { font-weight:none;}
+	#quote { padding-top: 700px;}
+	.projects {max-width: 600px;}
+	#pji img{ padding-left : 0px;}
+	#agarLogin {padding-left: 0px;}
+	#agar { padding-left: 0px;}
+	#android img { padding-left: 1px;}
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:18px; padding-top: 600px;}
+	.descriptionProjects { color : black; text-align: center; margin-left: 20%; margin-right: 20%; font-size: 17px; font-family: 'Varela Round', sans-serif;}
+
 }
 
 /* 320px (iPhone) */
 @media screen and (max-width:320px) {
+	.hero h1 { font-size: 18px;}
+	.hero p { font-size: 18px;}
+	#quote { font-size: 15px; }
+	.projects {max-width: 270px;}
+	#pji img{ padding-left : 0px;}
+	#agarLogin {padding-left: 0px;}
+	#agar { padding-left: 0px;}
+	#android img { padding-left: 1px;}
 	.hero h1 { font-size: 30px; margin-top : 2px;}
 	.hero p { font-size: 30px;}
-	#quote { font-size:20px; padding-top: 600px;}
+	#quote { font-size:18px; padding-top: 600px;}
+	footer { text-align :center;}
+	#asso {font-family: 'Varela Round', sans-serif; font-size: 15px;}
+	.descriptionProjects { color : black; text-align: center; margin-left: 20%; margin-right: 20%; font-size: 15px; font-family: 'Varela Round', sans-serif;}
+
+}
+
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px){
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center;}
+	#me {margin-left : 10px;}
+	.projects {max-width: 270px;}
+	#pji img{ padding-left : 0px;}
+	#agarLogin {padding-left: 0px;}
+	#agar { padding-left: 0px;}
+	#android img { padding-left: 1px;}
+	.hero h1 { font-size: 30px; margin-top : 2px;}
+	.hero p { font-size: 30px;}
+	#quote { font-size:18px; padding-top: 600px;}
+	#asso {font-family: 'Varela Round', sans-serif; font-size: 15px;}
+	footer { text-align :center;}
+	.descriptionProjects { color : black; text-align: center; margin-left: 20%; margin-right: 20%; font-size: 15px; font-family: 'Varela Round', sans-serif;}
+
 }
